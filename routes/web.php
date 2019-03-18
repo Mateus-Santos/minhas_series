@@ -17,4 +17,5 @@ Route::get('/', function () {
 
 
 
-Route::view('/generos', 'generos');
+Route::get('/generos', 'Generocontroller@index');
+Route::get('/series', 'Seriecontroller@index');
